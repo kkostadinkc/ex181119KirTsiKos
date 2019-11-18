@@ -1,0 +1,39 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color:rgb(5, 58, 5); 
+}
+
+li {
+    display: inline;
+}
+
+li a {
+    display: inline-block; 
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+li a.activo {
+    background-color: lightblue;
+    color: white;
+}
+
+li a:hover:not(.activo) { /*Cuando situamos el ratón encima, siempre que no sea sobre un elemento con la clase activo*/
+    background-color:darkslategray;
+    color: white;
+}
+
+.contenedor{
+    width: 100%;
+    height: 200px;
+    border: 1px solid black;
+}
+
+img{
+    margin:auto;
+    padding: 20px;
+}
